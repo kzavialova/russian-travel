@@ -1,0 +1,5 @@
+.list__cell {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
