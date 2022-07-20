@@ -1,0 +1,10 @@
+.intro__block {
+    max-width: 690px;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__block {
+        max-width: 720px;
+    }
+}

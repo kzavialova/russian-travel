@@ -12,6 +12,15 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 14px;
+        margin-bottom: 8px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .header__lang-link {
         font-size: 18px;
