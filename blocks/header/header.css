@@ -2,7 +2,6 @@
     padding-top: 28px;
     margin-right: auto;
     margin-left: auto;
-    max-height: 52px;
     max-width: 1184px;
     display: flex;
     flex-direction: row;
@@ -30,7 +29,6 @@
 @media screen and (max-width: 425px) {
     .header {
         padding-top: 16px;
-        max-height: 42px;
         max-width: 288px;
     }
 }

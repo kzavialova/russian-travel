@@ -5,23 +5,19 @@
     color: #ffffff;
     margin-top: 18px;
     margin-bottom: 6px;
+    text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
     margin-left: 18px;
-    text-decoration: none;
 }
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
 
 @media screen and (max-width: 767px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-        margin-top: 14px;
-        margin-bottom: 8px;
-    }
-}
-
-@media screen and (max-width: 425px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
